@@ -1,0 +1,39 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.titleText {
+    padding: 10px;
+}
+
+.headerImageContainer {
+    background-image: url("images/belgianCoast.png");
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.backgroundBlur {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 6px;
+    width: fit-content;
+}
